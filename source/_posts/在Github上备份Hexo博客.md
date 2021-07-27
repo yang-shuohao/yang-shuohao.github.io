@@ -54,6 +54,9 @@ deploy:
 
 之后每次更新博客之后, push 源文件到hexo分支即可备份
 
+# 个人备份习惯
+个人而言习惯于先备份文件再生成博客。即先执行git add .,git commit -m "Backup",git push origin hexo将博客备份完成，然后执行hexo g -d发布博客。
+
 # 恢复博客
 目前假设本地Hexo博客基础环境已经搭好。
 
@@ -75,7 +78,7 @@ npm install hexo-deployer-git
 ## node版本过高
 重新安装低版本 node
 
-##.deploy_git异常
+## .deploy_git异常
 ```
 rm -rf .deploy_git
 hexo g
