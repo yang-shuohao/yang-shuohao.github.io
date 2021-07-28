@@ -55,10 +55,10 @@ deploy:
 之后每次更新博客之后, push 源文件到hexo分支即可备份
 
 # 个人备份习惯
-个人而言习惯于先备份文件再生成博客。即先执行git add .,git commit -m "Backup",git push origin hexo将博客备份完成，然后执行hexo g -d发布博客。
+个人而言习惯于先备份文件再生成博客。即先执行git add .，git commit -m "Backup"，git push origin hexo将博客备份完成，然后执行hexo g -d发布博客。
 
 # 恢复博客
-目前假设本地Hexo博客基础环境已经搭好。
+目前假设本地Hexo博客基础环境已经搭好（其实很简单，只需要安装git和Nodejs（我下载的版本为LTS node-v14.17.3-x64.msi)，然后通过`npm install -g hexo-cli`安装hexo就可以了）。
 
 ## 克隆项目到本地
 输入下列命令克隆博客必须文件(hexo分支)：
