@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>UE5打包安卓环境搭建</title>
+      <link href="/2021/07/30/UE5%E6%89%93%E5%8C%85%E5%AE%89%E5%8D%93%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+      <url>/2021/07/30/UE5%E6%89%93%E5%8C%85%E5%AE%89%E5%8D%93%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
+      
+        <content type="html"><![CDATA[<h1 id="下载UE5"><a href="#下载UE5" class="headerlink" title="下载UE5"></a>下载UE5</h1><p>首先自己下载UE5，然后记得把Android选项勾上下载，默认好像是勾上了的，如果没勾上自己下载一下。</p><h1 id="下载jdk-8u77-windows-x64-exe"><a href="#下载jdk-8u77-windows-x64-exe" class="headerlink" title="下载jdk-8u77-windows-x64.exe"></a>下载jdk-8u77-windows-x64.exe</h1><p>这个</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> UE5 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> UE5 </tag>
+            
+            <tag> 打包 </tag>
+            
+            <tag> 安卓 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>在Github上备份Hexo博客</title>
       <link href="/2021/07/27/%E5%9C%A8Github%E4%B8%8A%E5%A4%87%E4%BB%BDHexo%E5%8D%9A%E5%AE%A2/"/>
       <url>/2021/07/27/%E5%9C%A8Github%E4%B8%8A%E5%A4%87%E4%BB%BDHexo%E5%8D%9A%E5%AE%A2/</url>
