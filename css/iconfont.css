@@ -16,28 +16,48 @@
 .icon-QQ:before {
   content: "\e601";
   /* 修改颜色 */
-  color: blue;
+  color: green;
   /* 修改大小 */
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .icon-bilibilix:before {
   content: "\e602";
+    /* 修改颜色 */
+  color: green;
+  /* 修改大小 */
+  font-size: 28px;
 }
 
 .icon-github:before {
   content: "\e603";
+    /* 修改颜色 */
+  color: green;
+  /* 修改大小 */
+  font-size: 28px;
 }
 
 .icon-zhihu:before {
   content: "\e629";
+    /* 修改颜色 */
+  color: green;
+  /* 修改大小 */
+  font-size: 28px;
 }
 
 .icon-weixin:before {
   content: "\e68a";
+    /* 修改颜色 */
+  color: green;
+  /* 修改大小 */
+  font-size: 28px;
 }
 
 .icon-csdn-copy:before {
   content: "\e600";
+    /* 修改颜色 */
+  color: green;
+  /* 修改大小 */
+  font-size: 28px;
 }
 
