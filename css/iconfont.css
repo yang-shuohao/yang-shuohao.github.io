@@ -16,7 +16,7 @@
 .icon-QQ:before {
   content: "\e601";
   /* 修改颜色 */
-  color: green;
+  color: #05fcc3;
   /* 修改大小 */
   font-size: 28px;
 }
@@ -24,7 +24,7 @@
 .icon-bilibilix:before {
   content: "\e602";
     /* 修改颜色 */
-  color: green;
+  color: #07b7f7;
   /* 修改大小 */
   font-size: 28px;
 }
