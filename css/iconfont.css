@@ -24,7 +24,7 @@
 .icon-bilibilix:before {
   content: "\e602";
     /* 修改颜色 */
-  color: #07b7f7;
+  color: #05fcc3;
   /* 修改大小 */
   font-size: 28px;
 }
@@ -32,7 +32,7 @@
 .icon-github:before {
   content: "\e603";
     /* 修改颜色 */
-  color: green;
+  color: #05fcc3;
   /* 修改大小 */
   font-size: 28px;
 }
@@ -40,7 +40,7 @@
 .icon-zhihu:before {
   content: "\e629";
     /* 修改颜色 */
-  color: green;
+  color: #05fcc3;
   /* 修改大小 */
   font-size: 28px;
 }
@@ -48,7 +48,7 @@
 .icon-weixin:before {
   content: "\e68a";
     /* 修改颜色 */
-  color: green;
+  color: #05fcc3;
   /* 修改大小 */
   font-size: 28px;
 }
@@ -56,7 +56,7 @@
 .icon-csdn-copy:before {
   content: "\e600";
     /* 修改颜色 */
-  color: green;
+  color: #05fcc3;
   /* 修改大小 */
   font-size: 28px;
 }
