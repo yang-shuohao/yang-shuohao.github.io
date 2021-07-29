@@ -48,10 +48,13 @@ copy:
 #formal:
 #  icon: /img/social.jpg || 人生游戏，游戏人生
 social:
-  fab fa-github: https://github.com/yang-shuohao || Github
-  #fas fa-envelope: https://mail.qq.com/cgi-bin/frame_html?sid=qZ7lv3zLb5qYyV08&r=ad5b3dcb6ab533c86a0fe096642c9c992499134263@qq.com || Email
-  /img/qq.png: /img/qq.png || QQ
-
+#  fab fa-github: https://github.com/yang-shuohao || Github
+  iconfont icon-QQ: /img/contact/qq.png
+  iconfont icon-weixin: /img/contact/wechat.jpg
+  iconfont icon-csdn-copy: https://yangshuohao.blog.csdn.net/
+  iconfont icon-github: https://github.com/yang-shuohao
+  iconfont icon-bilibilix: https://space.bilibili.com/405076711
+  iconfont icon-zhihu: https://www.zhihu.com/people/hao-mei-you-xi/columns
 
 # search (搜索)
 # --------------------------------------
@@ -845,6 +848,7 @@ css_prefix: true
 inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
+    - <link rel="stylesheet" href="/css/iconfont.css">
   bottom:
     # - <script src="xxxx"></script>
 
