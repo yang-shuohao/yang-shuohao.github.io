@@ -1,10 +1,51 @@
-- class_name: 友情链接
-  class_desc: 那些人，那些事
+- class_name: 个人链接
+  class_desc: 联系我
   link_list:
-    - name: Hexo
-      link: https://hexo.io/zh-tw/
-      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
-      descr: 快速、简单且强大的网站框架
+    - name: CSDN
+      link: https://yangshuohao.blog.csdn.net/
+      avatar: https://pbs.twimg.com/profile_images/544700031962316800/QFbzxOGM.jpeg
+      descr: 个人博客
+    - name: 知乎
+      link: https://www.zhihu.com/people/hao-mei-you-xi
+      avatar: https://play-lh.googleusercontent.com/9VnaS24lBlvuUkKiIg4rNdFb6d5UcYpOI17vun8l7VbHkry-jbpnJmsjfIVahGkEklE
+      descr: 知乎
+    - name: 哔哩哔哩
+      link: https://space.bilibili.com/405076711
+      avatar: https://public-cdn.mokahr.com/7aec1a00-9c79-4946-969a-75fa45b7f7c6.png
+      descr: 哔哩哔哩
+
+
+- class_name: 游戏引擎
+  class_desc: 值得推荐的游戏引擎
+  link_list:
+    - name: UnrealEngine
+      link: https://www.unrealengine.com/zh-CN/
+      avatar: https://docs.unrealengine.com/5.0/Images/placeholder_social.png
+      descr: 虚幻引擎
+    - name: Unity
+      link: https://unity.com/
+      avatar: https://blog.mywallst.com/wp-content/uploads/2021/04/UNITY.png
+      descr: Unity引擎
+
+- class_name: 程序员
+  class_desc: 程序员必备
+  link_list:
+    - name: Github
+      link: https://github.com/
+      avatar: https://www.biocentric.nl/wp-content/uploads/2018/08/cec44feb-0b1b-4fe3-936d-67a51a1fe28e.png
+      descr: Github
+    - name: Gitlab
+      link: https://about.gitlab.com/
+      avatar: https://about.gitlab.com/images/opengraph/gitlab-blog-cover.png
+      descr: Gitlab
+
+- class_name: 资料查找
+  class_desc: 英文电子书
+  link_list:
+    - name: libgen
+      link: http://libgen.rs/
+      avatar: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV3moIQEjbw2i3JrpcUtuvSfYGkM2o_ONheQ&usqp=CAU
+      descr: 此网站可以免费下载国外所有高清英文电子书
 
 - class_name: 网站
   class_desc: 值得推荐的网站
@@ -12,7 +53,11 @@
     - name: Youtube
       link: https://www.youtube.com/
       avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
-      descr: 视频网站
+      descr: 国外视频网站
+    - name: 哔哩哔哩
+      link: https://www.bilibili.com/
+      avatar: https://zeekmagazine.com/wp-content/uploads/2018/03/1520139593-410a07b750e8d0da5b2bd1095e61bcf6.jpg
+      descr: 国内视频网站
     - name: Weibo
       link: https://www.weibo.com/
       avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
@@ -21,3 +66,9 @@
       link: https://twitter.com/
       avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
       descr: 社交分享平台
+    - name: Steam
+      link: https://store.steampowered.com/
+      avatar: https://assets1.ignimgs.com/2021/05/07/steam-logo-1620404950085_160w.jpg?width=1280
+      descr: Steam
+
+
