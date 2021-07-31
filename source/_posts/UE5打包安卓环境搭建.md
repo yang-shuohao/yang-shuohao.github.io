@@ -99,18 +99,17 @@ AndroidStudio安装位置自己选择，比如我安装在D:\AndroidStudio，安
 等待打包完，OK环境搭建结束了。
 
 # 可能出现的问题
-1. Android Studio报错unable to access android sdk add-on list解决方案     
-
+1. Android Studio报错unable to access android sdk add-on
 ![](https://img-blog.csdnimg.cn/2021073023401258.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDM1MDIwNQ==,size_16,color_FFFFFF,t_70)
-解决办法：   
-    - 在Android Studio的安装目录下，找到\bin\idea.properties   
-    - 在尾行添加disable.android.first.run=true，表示初次启动不检测SDK
-2. UE5打包失败  
+> 解决办法：        
+> * 在Android Studio的安装目录下，找到\bin\idea.properties   
+> * 在尾行添加disable.android.first.run=true，表示初次启动不检测SDK
+2. UE5打包失败    
 
 ![](https://img-blog.csdnimg.cn/2021073022520373.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDM1MDIwNQ==,size_16,color_FFFFFF,t_70)   
-解决办法：   
-    安装dotnet-sdk-3.1.409-win-x64就可以了，[下载地址](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-3.1.409-windows-x64-installer)。   
-    下载安装完以后重新打包就可以了。
+> 解决办法：   
+> 安装dotnet-sdk-3.1.409-win-x64就可以了，[下载地址](https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-3.1.409-windows-x64-installer)。   
+> 下载安装完以后重新打包就可以了。  
 
 # 下载
 1. [jdk-8u77-windows-x64](https://pan.baidu.com/s/1XvOiuAs0W0OdkX06s3AlNg) 提取码: grgu   
