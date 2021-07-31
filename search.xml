@@ -4,6 +4,56 @@
   
     
     <entry>
+      <title>hexo博客在本地正常显示,部署到github上后排版混乱</title>
+      <link href="/2021/07/31/hexo%E5%8D%9A%E5%AE%A2%E5%9C%A8%E6%9C%AC%E5%9C%B0%E6%AD%A3%E5%B8%B8%E6%98%BE%E7%A4%BA-%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8A%E5%90%8E%E6%8E%92%E7%89%88%E6%B7%B7%E4%B9%B1/"/>
+      <url>/2021/07/31/hexo%E5%8D%9A%E5%AE%A2%E5%9C%A8%E6%9C%AC%E5%9C%B0%E6%AD%A3%E5%B8%B8%E6%98%BE%E7%A4%BA-%E9%83%A8%E7%BD%B2%E5%88%B0github%E4%B8%8A%E5%90%8E%E6%8E%92%E7%89%88%E6%B7%B7%E4%B9%B1/</url>
+      
+        <content type="html"><![CDATA[<blockquote><p>需强制刷新浏览器缓存，<strong>Shift+F5</strong>刷新，才能显示修改后的新界面。</p></blockquote>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>重新生成网站导致域名失效</title>
+      <link href="/2021/07/31/%E9%87%8D%E6%96%B0%E7%94%9F%E6%88%90%E7%BD%91%E7%AB%99%E5%AF%BC%E8%87%B4%E5%9F%9F%E5%90%8D%E5%A4%B1%E6%95%88/"/>
+      <url>/2021/07/31/%E9%87%8D%E6%96%B0%E7%94%9F%E6%88%90%E7%BD%91%E7%AB%99%E5%AF%BC%E8%87%B4%E5%9F%9F%E5%90%8D%E5%A4%B1%E6%95%88/</url>
+      
+        <content type="html"><![CDATA[<h1 id="新建CNAME文件"><a href="#新建CNAME文件" class="headerlink" title="新建CNAME文件"></a>新建CNAME文件</h1><p>在hexo跟目录下的source文件夹内新建一个CNAME文件（新建一个文本文件，去掉后缀名就可以保存为所有文件），在CNAME文件里面填写自己的域名就可以了。</p><p><img src="https://img-blog.csdnimg.cn/20210731101923729.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDM1MDIwNQ==,size_16,color_FFFFFF,t_70"><br><img src="https://img-blog.csdnimg.cn/20210731102010910.png"><br>然后hexo g -d重新生成部署（这里一定确定生成成功，可能因为网络原因导致失败）。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>UE5打包安卓环境搭建</title>
       <link href="/2021/07/30/UE5%E6%89%93%E5%8C%85%E5%AE%89%E5%8D%93%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
       <url>/2021/07/30/UE5%E6%89%93%E5%8C%85%E5%AE%89%E5%8D%93%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</url>
