@@ -6,7 +6,7 @@ tags:
 - VisualAssist
 - 小番茄
 categories: VS插件
-cover: https://img-blog.csdnimg.cn/20210801145008117.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDM1MDIwNQ==,size_16,color_FFFFFF,t_70
+cover: https://img-blog.csdnimg.cn/20210801145008117.jpg
 ---
 
 # VA小番茄下载地址
@@ -15,7 +15,7 @@ cover: https://img-blog.csdnimg.cn/20210801145008117.jpg?x-oss-process=image/wat
 
 # 下载完以后点击安装
 ![](https://img-blog.csdnimg.cn/20210801144914229.png)
-![](https://img-blog.csdnimg.cn/20210801144920161.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDM1MDIwNQ==,size_16,color_FFFFFF,t_70)
+![](https://img-blog.csdnimg.cn/20210801144920161.png)
 
 # 替换VA_X.dll文件
 安装完以后把Crack文件夹里面的VA_X.dll替换掉小番茄安装目录里面的VA_X.dll就可以了。
