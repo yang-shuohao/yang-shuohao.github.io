@@ -431,7 +431,7 @@ footer:
 
 # Baidu Analytics
 # https://tongji.baidu.com/web/welcome/login
-baidu_analytics:
+baidu_analytics: 5cb17a7fcaf2e7ec5a0cbbd6c8916fac
 
 # Google Analytics
 # https://analytics.google.com/analytics/web/
