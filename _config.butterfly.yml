@@ -24,7 +24,7 @@ menu:
   关于: /about/ || fas fa-heart
 
 # Hide the child menu items in mobile sidebar
-hide_sidebar_menu_child: false
+hide_sidebar_menu_child: 
 
 # Code Blocks (代碼相關)
 # --------------------------------------
@@ -423,7 +423,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text:
+  custom_text: Hi, welcome to my <a href="https://yangshuohao.com/">blog</a>!
   copyright: true # Copyright of theme and framework
 
 # Analysis
