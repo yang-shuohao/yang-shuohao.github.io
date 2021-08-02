@@ -11,14 +11,15 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder
-  娱乐||fas fa-list:
-    音乐: /music/ || fas fa-music
-    视频: /movies/ || fas fa-video
-    游戏: /game/ || fas fa-gamepad
-  下载||fas fa-download:
-    软件: /software/ || fas fa-desktop
-    文件: /file/ || fas fa-book
-    资源: /resources/ || fas fa-arrow-circle-down
+  英文电子书下载: /resources/ || fas fa-arrow-circle-down
+  # 娱乐||fas fa-list:
+  #   音乐: /music/ || fas fa-music
+  #   视频: /movies/ || fas fa-video
+  #   游戏: /game/ || fas fa-gamepad
+  # 下载||fas fa-download:
+  #   软件: /software/ || fas fa-desktop
+  #   文件: /file/ || fas fa-book
+  #   资源: /resources/ || fas fa-arrow-circle-down
   留言: /message/ || fas fa-user-circle
   链接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
