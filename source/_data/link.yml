@@ -39,14 +39,6 @@
       avatar: https://about.gitlab.com/images/opengraph/gitlab-blog-cover.png
       descr: Gitlab
 
-- class_name: 资料查找
-  class_desc: 英文电子书
-  link_list:
-    - name: libgen
-      link: http://libgen.rs/
-      avatar: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQV3moIQEjbw2i3JrpcUtuvSfYGkM2o_ONheQ&usqp=CAU
-      descr: 此网站可以免费下载国外所有高清英文电子书
-
 - class_name: 网站
   class_desc: 值得推荐的网站
   link_list:
