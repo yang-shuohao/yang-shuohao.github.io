@@ -5,7 +5,7 @@ tags:
 - VisualStudio插件
 - VisualAssist
 - 小番茄
-categories: VS插件
+categories: 软件
 cover: https://img-blog.csdnimg.cn/20210801145008117.jpg
 ---
 
