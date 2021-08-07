@@ -6,7 +6,7 @@
   <link href="http://yangshuohao.com/atom.xml" rel="self"/>
   
   <link href="http://yangshuohao.com/"/>
-  <updated>2021-08-07T13:00:11.453Z</updated>
+  <updated>2021-08-07T14:20:02.310Z</updated>
   <id>http://yangshuohao.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown语法</title>
+    <link href="http://yangshuohao.com/2021/08/07/Markdown%E8%AF%AD%E6%B3%95/"/>
+    <id>http://yangshuohao.com/2021/08/07/Markdown%E8%AF%AD%E6%B3%95/</id>
+    <published>2021-08-07T14:12:12.000Z</published>
+    <updated>2021-08-07T14:20:02.310Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h1><p>这些是 John Gruber 的原始设计文档中列出的元素。所有 Markdown 应用程序都支持这些元素。<br><img src="https://img-blog.csdnimg.cn/2021080722171071.png"></p><h1 id="扩展语法"><a href="#扩展语法" class="headerlink" title="扩展语法"></a>扩展语法</h1><p>这些元素通过添加额外的功能扩展了基本语法。但是，并非所有 Markdown 应用程序都支持这些元素。<br><img src="https://img-blog.csdnimg.cn/20210807221747578.png"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;基本语法&quot;&gt;&lt;a href=&quot;#基本语法&quot; class=&quot;headerlink&quot; title=&quot;基本语法&quot;&gt;&lt;/a&gt;基本语法&lt;/h1&gt;&lt;p&gt;这些是 John Gruber 的原始设计文档中列出的元素。所有 Markdown 应用程序都支持这些元素。&lt;br&gt;&lt;img</summary>
+      
+    
+    
+    
+    <category term="Markdown" scheme="http://yangshuohao.com/categories/Markdown/"/>
+    
+    
+    <category term="Markdown" scheme="http://yangshuohao.com/tags/Markdown/"/>
+    
+  </entry>
   
   <entry>
     <title>KMSpico激活Windows和Office</title>
