@@ -8,7 +8,7 @@
       <link href="/2021/08/07/Markdown%E8%AF%AD%E6%B3%95/"/>
       <url>/2021/08/07/Markdown%E8%AF%AD%E6%B3%95/</url>
       
-        <content type="html"><![CDATA[<h1 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h1><p>这些是 John Gruber 的原始设计文档中列出的元素。所有 Markdown 应用程序都支持这些元素。<br><img src="https://img-blog.csdnimg.cn/2021080722171071.png"></p><h1 id="扩展语法"><a href="#扩展语法" class="headerlink" title="扩展语法"></a>扩展语法</h1><p>这些元素通过添加额外的功能扩展了基本语法。但是，并非所有 Markdown 应用程序都支持这些元素。<br><img src="https://img-blog.csdnimg.cn/20210807221747578.png"></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h1><p>这些是 John Gruber 的原始设计文档中列出的元素。所有 Markdown 应用程序都支持这些元素。<br><img src="https://img-blog.csdnimg.cn/2021080722171071.png"></p><h1 id="扩展语法"><a href="#扩展语法" class="headerlink" title="扩展语法"></a>扩展语法</h1><p>这些元素通过添加额外的功能扩展了基本语法。但是，并非所有 Markdown 应用程序都支持这些元素。<br><img src="https://img-blog.csdnimg.cn/20210807221747578.png"></p><h1 id="文档参考"><a href="#文档参考" class="headerlink" title="文档参考"></a>文档参考</h1><p><a href="https://www.markdown.xyz/">Markdown 指南</a></p>]]></content>
       
       
       <categories>
