@@ -7,6 +7,7 @@ type: "about"
 # 个人介绍
 > 姓名：杨硕豪(yangshuohao)
 > 性别：男(male)
+> 生日：1998年12月18日
 > 籍贯：江西(JiangXi)
 > 学历：本科(Undergraduate)
 > 毕业院校：桂林电子科技大学(GUET)
@@ -25,10 +26,11 @@ type: "about"
 > 电影
 > 游戏
 > 跑步
+> 个人对游戏开发、游戏引擎、游戏安全、黑客技术、操作系统和编译器等所有计算机技术有浓厚的兴趣！
 
 # 生活照片
-![](https://img-blog.csdnimg.cn/20210731131300703.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDM1MDIwNQ==,size_16,color_FFFFFF,t_70)
-![](https://img-blog.csdnimg.cn/20210731131300687.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDM1MDIwNQ==,size_16,color_FFFFFF,t_70)
-![](https://img-blog.csdnimg.cn/20210731131300686.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDM1MDIwNQ==,size_16,color_FFFFFF,t_70)
-![](https://img-blog.csdnimg.cn/20210116133236598.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDM1MDIwNQ==,size_16,color_FFFFFF,t_70)
-![](https://img-blog.csdnimg.cn/20210116133150750.jpeg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDM1MDIwNQ==,size_16,color_FFFFFF,t_70)
+![](https://img-blog.csdnimg.cn/20210731131300703.jpg)
+![](https://img-blog.csdnimg.cn/20210731131300687.jpg)
+![](https://img-blog.csdnimg.cn/20210731131300686.jpg)
+![](https://img-blog.csdnimg.cn/20210116133236598.jpeg)
+![](https://img-blog.csdnimg.cn/20210116133150750.jpeg)
