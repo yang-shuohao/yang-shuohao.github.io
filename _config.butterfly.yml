@@ -860,6 +860,11 @@ inject:
     #- <script src="/js/fish.js"></script>  #不带颜色的鱼
     - <script src="/js/fishes.js"></script>   #带颜色的鱼
     - <script defer src="https://cdn.jsdelivr.net/combine/npm/jquery@latest/dist/jquery.min.js,gh/weilining/jsdelivr/jquery/circlemagic/circlemagic.min.js,gh/weilining/jsdelivr@latest/jquery/circlemagic/butterflycirclemagic.js"></script> #上升气泡
+    #- <script defer src="https://rmt.dogedoge.com/fetch/~/source/jsdelivr/npm/jquery@latest/dist/jquery.min.js"></script> #水波荡漾
+    - <script defer src="https://cdn.jsdelivr.net/gh/sirxemic/jquery.ripples/dist/jquery.ripples.js"></script>
+    - <script defer src="/js/ripples.js"></script>
+    - <script src="/js/footer.js"></script> #页脚
+
 
 # CDN
 # Don't modify the following settings unless you know how they work
