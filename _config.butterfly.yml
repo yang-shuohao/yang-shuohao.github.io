@@ -423,7 +423,7 @@ footer:
   owner:
     enable: true
     since: 2020
-  custom_text: Hi, welcome to my <a href="https://yangshuohao.com/">blog</a>!
+  custom_text: 
   copyright: true # Copyright of theme and framework
 
 # Analysis
@@ -849,11 +849,15 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/css/iconfont.css">
+    - <link rel="stylesheet" href="/css/footer.css">
   bottom:
     # - <script src="xxxx"></script>
     - <div><canvas id="snow" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:99999;pointer-events:none"></canvas></div>
     - <script>const notMobile = (!(navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)));</script>
-    - <script async type="text/javascript" src="https://cdn.jsdelivr.net/gh/Candinya/Kratos-Rebirth@latest/source/js/snow.min.js"></script>
+    - <script async type="text/javascript" src="https://cdn.jsdelivr.net/gh/Candinya/Kratos-Rebirth@latest/source/js/snow.min.js"></script> #雪
+    #- <script src="/js/snow.js"></script> # 下雪动效
+    - <script src="/js/jq.js"></script>
+    - <script src="/js/fish.js"></script>
 
 # CDN
 # Don't modify the following settings unless you know how they work
