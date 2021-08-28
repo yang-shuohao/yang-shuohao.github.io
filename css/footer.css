@@ -1,6 +1,6 @@
 /* 页脚半透明 */
 #footer {
-    background: rgba(255, 255, 255, 100);
+    background: rgba(255, 255, 255, 0);
     color: #000;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
