@@ -105,3 +105,34 @@ deploy:
   type: 'git'
   repository: https://github.com/yang-shuohao/yang-shuohao.github.io.git
   branch: main
+
+# 人物
+live2d:
+  enable: true
+  scriptFrom: local # 默认
+  tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
+  debug: false # 调试, 是否在控制台输出日志
+  model:
+    use: live2d-widget-model-hijiki #模型选择
+  display:
+    position: right  #模型位置
+    width: 150       #模型宽度
+    height: 300      #模型高度
+    hOffset: 20
+    vOffset: -20
+  mobile:
+    show: false      #是否在手机端显示
+
+# electric_clock
+electric_clock:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  exclude:
+    # - /posts/
+    # - /about/
+  layout: # 挂载容器类型
+    type: class
+    name: sticky_layout
+    index: 0
+  loading: https://cdn.jsdelivr.net/gh/tzy13755126023/BLOG_SOURCE/theme_f/loading.gif #加载动画自定义 
