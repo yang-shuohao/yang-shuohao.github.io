@@ -849,7 +849,7 @@ inject:
   head:
     # - <link rel="stylesheet" href="/xxx.css">
     - <link rel="stylesheet" href="/css/iconfont.css">
-    - <link rel="stylesheet" href="/css/footer.css">
+    #- <link rel="stylesheet" href="/css/footer.css">
   bottom:
     # - <script src="xxxx"></script>
     - <div><canvas id="snow" style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:99999;pointer-events:none"></canvas></div>
