@@ -19,7 +19,7 @@ menu:
   #   软件: /software/ || fas fa-desktop
   #   文件: /file/ || fas fa-book
   #   资源: /resources/ || fas fa-arrow-circle-down
-  留言: /message/ || fas fa-user-circle
+  留言: /comments/ || fas fa-user-circle
   链接: /link/ || fas fa-link
   关于: /about/ || fas fa-heart
 
@@ -107,14 +107,14 @@ disable_top_img: false
 index_img: /img/index_img.gif
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: https://img-blog.csdnimg.cn/617be0dc6f0f4333bd4a7ee94c51f68d.gif#pic_center
 
 # The banner image of archive page
-archive_img:
+archive_img: https://img-blog.csdnimg.cn/ac5f8213324848aa9810bf311ab06a14.gif#pic_center
 
 # If the banner of tag page not setting, it will show the top_img
 # note: tag page, not tags page (子標籤頁面的 top_img)
-tag_img:
+tag_img: https://img-blog.csdnimg.cn/7b2eeeb33e9b456686b38fc0787a9fc5.gif#pic_center
 
 # The banner image of tag page
 # format:
@@ -123,7 +123,7 @@ tag_per_img:
 
 # If the banner of category page not setting, it will show the top_img
 # note: category page, not categories page (子分類頁面的 top_img)
-category_img:
+category_img: https://img-blog.csdnimg.cn/61d8311119c1433d851c149a68807cec.gif#pic_center
 
 # The banner image of category page
 # format:
@@ -141,6 +141,7 @@ cover:
   # When cover is not set, the default cover is displayed (當沒有設置cover時，默認的封面顯示)
   default_cover:
     # - https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg
+    - https://img-blog.csdnimg.cn/7b2eeeb33e9b456686b38fc0787a9fc5.gif#pic_center
 
 # Replace Broken Images (替換無法顯示的圖片)
 error_img:
@@ -717,9 +718,9 @@ change_font_size: false
 
 # Conversion between Traditional and Simplified Chinese (簡繁轉換)
 translate:
-  enable: false
+  enable: true
   # The text of a button
-  default: 繁
+  default: 简
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay
@@ -727,7 +728,7 @@ translate:
   # The text of the button when the language is Simplified Chinese
   msgToTraditionalChinese: '繁'
   # The text of the button when the language is Traditional Chinese
-  msgToSimplifiedChinese: '簡'
+  msgToSimplifiedChinese: '简'
 
 # Read Mode (閲讀模式)
 readmode: true
@@ -861,7 +862,7 @@ inject:
     - <script src="/js/jq.js"></script>
     #- <script src="/js/fish.js"></script>  #不带颜色的鱼
     - <script src="/js/fishes.js"></script>   #带颜色的鱼
-    - <script defer src="https://cdn.jsdelivr.net/combine/npm/jquery@latest/dist/jquery.min.js,gh/weilining/jsdelivr/jquery/circlemagic/circlemagic.min.js,gh/weilining/jsdelivr@latest/jquery/circlemagic/butterflycirclemagic.js"></script> #上升气泡
+    #- <script defer src="https://cdn.jsdelivr.net/combine/npm/jquery@latest/dist/jquery.min.js,gh/weilining/jsdelivr/jquery/circlemagic/circlemagic.min.js,gh/weilining/jsdelivr@latest/jquery/circlemagic/butterflycirclemagic.js"></script> #上升气泡
     #- <script defer src="https://rmt.dogedoge.com/fetch/~/source/jsdelivr/npm/jquery@latest/dist/jquery.min.js"></script> #水波荡漾
     #- <script defer src="https://cdn.jsdelivr.net/gh/sirxemic/jquery.ripples/dist/jquery.ripples.js"></script> 
     #- <script defer src="/js/ripples.js"></script> #水波荡漾

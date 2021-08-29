@@ -2,6 +2,7 @@
 title: 关于我
 date: 2021-07-27 23:51:40
 type: "about"
+cover: https://img-blog.csdnimg.cn/7b2eeeb33e9b456686b38fc0787a9fc5.gif#pic_center
 ---
 
 # 个人介绍
