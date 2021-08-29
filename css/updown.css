@@ -1,0 +1,14 @@
+/* 隐藏回到顶部按钮，替换为up酱 */
+
+#go-up i {
+    display: none;
+    background-color: transparent !important;
+}
+
+#go-up {
+    background-color: transparent !important;
+}
+
+#upj {
+    transform: translate(-70px, -80px) !important;
+}
