@@ -46,7 +46,7 @@ copy:
 
 # social settings (社交圖標設置)
 #formal:
-#  icon: /img/social.jpg || 人生游戏，游戏人生
+#  icon: /img/social.jpg || 周游世界
 social:
 #  fab fa-github: https://github.com/yang-shuohao || Github
   iconfont icon-QQ: /img/contact/qq.png
@@ -383,7 +383,7 @@ twikoo:
 
 # Chat Button [recommend]
 # It will create a button in the bottom right corner of website, and hide the origin button
-chat_btn: false
+chat_btn: true
 
 # The origin chat button is displayed when scrolling up, and the button is hidden when scrolling down
 chat_hide_show: false
@@ -397,8 +397,8 @@ chatra:
 # tidio
 # https://www.tidio.com/
 tidio:
-  enable: false
-  public_key:
+  enable: true
+  public_key: h5gdz8ostpg0eczgukzdeqsadaueoy3j
 
 # daovoice
 # http://daovoice.io/
@@ -523,7 +523,7 @@ background:
 footer_bg: false
 
 # the position of bottom right button/default unit: px (右下角按鈕距離底部的距離/默認單位為px)
-rightside-bottom:
+rightside-bottom: 
 
 # Enter transitions (開啓網頁進入效果)
 enter_transitions: true
@@ -660,7 +660,7 @@ aside:
       link: https://github.com/xxxxxx
   card_announcement:
     enable: true
-    content: 嗨，其实成功很简单的，那就是做自己喜欢的事情并坚持下去，就一定会成功的啦！
+    content: 嗨，其实成功很简单的，那就是做自己喜欢的事情并坚持下去，就一定会成功的啦！<img src="https://img-blog.csdnimg.cn/40b3e96c94ab464ab68ccab789b4c183.gif#pic_center">
   card_recent_post:
     enable: true
     limit: 5 # if set 0 will show all
@@ -699,12 +699,12 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
-  publish_date:
+  enable: true
+  publish_date: 2021/07/25
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: false
+  enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   storage: 10 # unit: mins, save data to localStorage
@@ -867,6 +867,8 @@ inject:
     #- <script defer src="https://cdn.jsdelivr.net/gh/sirxemic/jquery.ripples/dist/jquery.ripples.js"></script> 
     #- <script defer src="/js/ripples.js"></script> #水波荡漾
     - <script src="/js/footer.js"></script> #页脚
+    #- <script src="https://cdn.jsdelivr.net/gh/lete114/CDN/js/upjiang.js"></script> #upjiang
+    - <script src="//code.tidio.co/h5gdz8ostpg0eczgukzdeqsadaueoy3j.js" async></script> #Tidio在线聊天
 
 
 # CDN

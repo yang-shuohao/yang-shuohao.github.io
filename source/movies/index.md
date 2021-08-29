@@ -26,7 +26,7 @@ type: "movies"
     <body>
         <h1> 如何免费下载英文电子书  </h1>
         <div class="aspect-ratio" >
-            <iframe src="//player.bilibili.com/player.html?aid=462273390&bvid=BV1AL411J7g8&cid=388776132&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
+            <iframe src="//player.bilibili.com/player.html?aid=462273390&bvid=BV1AL411J7g8&cid=388776132&page=1&high_quality=1&danmaku=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"> </iframe>
         </div>
     </body>
 </html>
