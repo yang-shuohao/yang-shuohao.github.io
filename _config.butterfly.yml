@@ -11,9 +11,9 @@ menu:
   时间轴: /archives/ || fas fa-archive
   标签: /tags/ || fas fa-tags
   分类: /categories/ || fas fa-folder
-  # 娱乐||fas fa-list:
-  #   音乐: /music/ || fas fa-music
-  #   视频: /movies/ || fas fa-video
+  娱乐||fas fa-list:
+    音乐: /music/ || fas fa-music
+    视频: /movies/ || fas fa-video
   #   游戏: /game/ || fas fa-gamepad
   # 下载||fas fa-download:
   #   软件: /software/ || fas fa-desktop
