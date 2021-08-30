@@ -172,6 +172,6 @@ tag_cloud:
     textFont: Microsoft YaHei, monospace
     textColor: '#00ffff'
     textHeight: 25
-    outlineColor: '#434343' # '#B5B4AA' '#E2E1D1'
+    outlineColor: '#ff0000' # '#B5B4AA' '#E2E1D1'
     maxSpeed: 0.2
     pauseOnSelected: false # true 意味着当选中对应 tag 时,停止转动
