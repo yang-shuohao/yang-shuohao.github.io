@@ -62,7 +62,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 11
+  per_page: 13
   order_by: -date
 
 # Category & Tag
@@ -108,7 +108,7 @@ deploy:
 
 # 人物
 live2d:
-  enable: true
+  enable: false
   scriptFrom: local # 默认
   tagMode: false # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
   debug: false # 调试, 是否在控制台输出日志
@@ -125,7 +125,7 @@ live2d:
 
 # electric_clock
 electric_clock:
-  enable: true # 开关
+  enable: false # 开关
   priority: 5 #过滤器优先权
   enable_page: all # 应用页面
   exclude:
