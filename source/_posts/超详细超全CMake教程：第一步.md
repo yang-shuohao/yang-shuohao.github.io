@@ -1,12 +1,12 @@
 ---
-title: 超详细超全CMake教程：第一步
+title: 超详细超全CMake教程：第一步：一个基本的起点
 date: 2021-09-01 22:59:55
 tags: CMake
 categories: CMake
 cover: https://img-blog.csdnimg.cn/73d242c110714789b7277f02cb9fdd9c.png
 ---
 
-# 第一步
+# 第一步：一个基本的起点
 最基本的项目是从源代码文件构建的可执行文件。对于简单的项目，只需要一个三行CMakeLists.txt文件。这将是我们教程的起点。在Step1目录中创建一个 CMakeLists.txt文件，添加如下代码：
 
 ```cpp
