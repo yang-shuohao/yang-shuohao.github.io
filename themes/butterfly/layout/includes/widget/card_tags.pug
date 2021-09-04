@@ -6,8 +6,7 @@ if site.tags.length
         span= _p('aside.card_tags')
         script(type="text/javascript" charset="utf-8" src="/js/tagcloud.js")
         script(type="text/javascript" charset="utf-8" src="/js/tagcanvas.js")
-        #myCanvasContainer.widget.tagcloud(align='center', style='width=100%;height=100%;margin:0;padding:0')
-          canvas#resCanvas(width=200,style='width=100%;height=100%;margin:0;padding:0;display:block')
+        #myCanvasContainer.widget.tagcloud(align='center')
+          canvas#resCanvas(width='200',height='200',style='width=100%')
             != tagcloud()
-          br
-          != tagcloud({min_font: 16, max_font: 24, amount: 50, color: true, start_color: '#00ffff', end_color: '#fa1010'})
+         
