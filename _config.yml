@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://yangshuohao.com
+url: https://www.yangshuohao.com
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,9 +102,11 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: 'git'
-  repository: https://github.com/yang-shuohao/yang-shuohao.github.io.git
-  branch: main
+  - type: git
+    repo:
+      github: https://github.com/yang-shuohao/yang-shuohao.github.io.git,main
+      
+  - type: baidu_url_submitter  #百度
 
 # 人物
 live2d:
@@ -175,3 +177,11 @@ tag_cloud:
     outlineColor: '#ff0000' # '#B5B4AA' '#E2E1D1'
     maxSpeed: 0.2
     pauseOnSelected: false # true 意味着当选中对应 tag 时,停止转动
+
+
+# 百度主动推送
+baidu_url_submit:
+  count: 100 	# 提交最新的一个链接
+  host: https://www.yangshuohao.com # 在百度站长平台中注册的域名
+  token: TkwSdkuZfEryCgkT # 请注意这是你百度站长平台主动推送的的秘钥, 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt # 文本文档的地址, 新链接会保存在此文本文档里
