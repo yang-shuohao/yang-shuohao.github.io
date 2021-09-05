@@ -185,3 +185,7 @@ baidu_url_submit:
   host: https://www.yangshuohao.com # 在百度站长平台中注册的域名
   token: TkwSdkuZfEryCgkT # 请注意这是你百度站长平台主动推送的的秘钥, 所以请不要把博客源代码发布在公众仓库里!
   path: baidu_urls.txt # 文本文档的地址, 新链接会保存在此文本文档里
+
+#百度sitemap推送
+baidusitemap:
+  path: baidusitemap.xml
