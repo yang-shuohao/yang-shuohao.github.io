@@ -189,3 +189,6 @@ baidu_url_submit:
 #百度sitemap推送
 baidusitemap:
   path: baidusitemap.xml
+#
+sitemap: 
+  path: sitemap.xml
