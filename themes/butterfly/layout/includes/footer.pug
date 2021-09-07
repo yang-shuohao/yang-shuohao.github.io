@@ -3,20 +3,13 @@
     - var now = new Date()
     - var nowYear = now.getFullYear()
     if theme.footer.owner.since && theme.footer.owner.since != nowYear
-      .copyright!= `&copy;${theme.footer.owner.since} - ${nowYear} By ${config.author}`
+      .copyright!= `&copy;${nowYear + ' '} <i id="heartbeat" class="fa fas fa-heartbeat"></i> ${config.author}`
     else
-      .copyright!= `&copy;${nowYear} By ${config.author}`
-
+      .copyright!= `&copy;${theme.since} - ${nowYear + ' '} <i id="heartbeat" class="fa fas fa-heartbeat"></i> ${config.author}`
+  
   if theme.footer.custom_text
     .footer_custom_text!=`${theme.footer.custom_text}`
 	
   if theme.footer.copyright
     .framework-info
-	
-#jsi-flying-fish-container.container
-   script(src='/js/fish.js')
-style.
-   
-       @media only screen and (max-width: 767px){
-       #sidebar_search_box input[type=text]{width:calc(100% - 24px)}
-    }
+    
