@@ -6,7 +6,7 @@
 title: yangshuohao
 subtitle: ''
 description: '周游世界'
-keywords:
+keywords: 
 author: yangshuohao
 language: zh-CN
 timezone: ''
@@ -14,7 +14,7 @@ timezone: ''
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://www.yangshuohao.com
-permalink: :year/:month/:day/:title/
+permalink: :year:month:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -192,3 +192,22 @@ baidusitemap:
 #
 sitemap: 
   path: sitemap.xml
+
+
+# 开启压缩
+neat_enable: true
+neat_html:
+  enable: true
+  exclude:
+neat_css:
+  enable: true
+  exclude:
+    - '**/*.min.css'
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '**/*.min.js'
+    - '**/index.js'
