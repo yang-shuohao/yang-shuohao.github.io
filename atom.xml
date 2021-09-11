@@ -6,7 +6,7 @@
   <link href="https://www.yangshuohao.com/atom.xml" rel="self"/>
   
   <link href="https://www.yangshuohao.com/"/>
-  <updated>2021-09-02T16:32:02.886Z</updated>
+  <updated>2021-09-11T01:58:35.069Z</updated>
   <id>https://www.yangshuohao.com/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>超详细Vulkan开发环境搭建Windows篇</title>
+    <link href="https://www.yangshuohao.com/20210911/%E8%B6%85%E8%AF%A6%E7%BB%86Vulkan%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAWindows%E7%AF%87/"/>
+    <id>https://www.yangshuohao.com/20210911/%E8%B6%85%E8%AF%A6%E7%BB%86Vulkan%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BAWindows%E7%AF%87/</id>
+    <published>2021-09-11T01:55:27.000Z</published>
+    <updated>2021-09-11T01:58:35.069Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h1 id="1-Vulkan-SDK"><a href="#1-Vulkan-SDK" class="headerlink" title="1.Vulkan SDK"></a>1.Vulkan SDK</h1><p>开发 Vulkan 应用程序所需的最重要组件是 SDK。它包括头文件、标准验证层、调试工具和 Vulkan 函数的加载程序。加载程序在运行时查找驱动程序中的函数，类似于 OpenGL 的 GLEW - 如果您熟悉它。<br>可以 使用页面底部的按钮从<a href="https://vulkan.lunarg.com/">LunarG</a> 网站下载 SDK 。您不必创建帐户，但它可以让您访问一些可能对您有用的其他文档。    </p><p><img src="https://img-blog.csdnimg.cn/df92c24d6acf454cb21ff9ed55110192.png" alt="在这里插入图片描述"><br><img src="https://img-blog.csdnimg.cn/1eef8f962e1d40b4ad06f90ce8b67ec1.png" alt="在这里插入图片描述">   </p><p>继续安装，注意SDK的安装位置。</p><p><img src="https://img-blog.csdnimg.cn/19ab74435db44b24ad6812e3fb491fbd.png" alt="在这里插入图片描述">    </p><p>我们要做的第一件事是验证您的显卡和驱动程序是否正确支持 Vulkan。进入SDK安装目录，打开Bin目录，运行vkcube.exedemo。您应该看到以下内容：</p><p><img src="https://img-blog.csdnimg.cn/7fe287dcb72c49cfbf852209d12d17b2.gif#pic_center" alt="在这里插入图片描述"></p><p>如果您收到错误消息，请确保您的驱动程序是最新的，包括 Vulkan 运行时并且您的显卡受支持。</p><h1 id="glm"><a href="#glm" class="headerlink" title="glm"></a>glm</h1><p><a href="https://github.com/g-truc/glm/releases">glm下载地址</a><br><img src="https://img-blog.csdnimg.cn/6212207b028d411280564ae68d412d8b.png" alt="在这里插入图片描述"></p><h1 id="GLFW"><a href="#GLFW" class="headerlink" title="GLFW"></a>GLFW</h1><p><a href="https://www.glfw.org/download.html">GLFW下载地址</a><br><img src="https://img-blog.csdnimg.cn/b2c70882565f4bd1a9fa29af9edb7e05.png" alt="在这里插入图片描述"></p><h1 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h1><p>打开VS2019，新建一个C++空项目，然后添加一个Main.cpp文件。</p><h2 id="配置项目属性"><a href="#配置项目属性" class="headerlink" title="配置项目属性"></a>配置项目属性</h2><p>右键创建的项目，选择最下面的属性，打开属性面板。<br>选择C/C++下面的General，在第一个添加包含目录里面添加Vulkan包含目录，glfw包含目录和glm包含目录。</p><p><img src="https://img-blog.csdnimg.cn/c69d9998fc4d431ea9f474382370c3cb.png" alt="在这里插入图片描述"></p><p>选择Linker下面的General，在添加库目录里面添加Vulkan和glfw的库目录。</p><p><img src="https://img-blog.csdnimg.cn/635eceeda4444a48ae5ab9b152f30c91.png" alt="在这里插入图片描述"></p><p>选择Linker下面的Input，在添加依赖里面输入vulkan-1.lib和glfw3.lib。</p><p><img src="https://img-blog.csdnimg.cn/8353662194474378980dabb0e00ee2f9.png" alt="在这里插入图片描述"></p><h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p>到这里Vulkan的开发环境就搭建好了，在创建的Main.cpp里面输入下面代码进行测试。</p><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> GLFW_INCLUDE_VULKAN</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;GLFW/glfw3.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> GLM_FORCE_RADIANS</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> GLM_FORCE_DEPTH_ZERO_TO_ONE</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;glm/vec4.hpp&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;glm/mat4x4.hpp&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    <span class="built_in">glfwInit</span>();</span><br><span class="line"></span><br><span class="line">    <span class="built_in">glfwWindowHint</span>(GLFW_CLIENT_API, GLFW_NO_API);</span><br><span class="line">    GLFWwindow* window = <span class="built_in">glfwCreateWindow</span>(<span class="number">800</span>, <span class="number">600</span>, <span class="string">&quot;Vulkan window&quot;</span>, <span class="literal">nullptr</span>, <span class="literal">nullptr</span>);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">uint32_t</span> extensionCount = <span class="number">0</span>;</span><br><span class="line">    <span class="built_in">vkEnumerateInstanceExtensionProperties</span>(<span class="literal">nullptr</span>, &amp;extensionCount, <span class="literal">nullptr</span>);</span><br><span class="line"></span><br><span class="line">    std::cout &lt;&lt; extensionCount &lt;&lt; <span class="string">&quot; extensions supported\n&quot;</span>;</span><br><span class="line"></span><br><span class="line">    glm::mat4 matrix;</span><br><span class="line">    glm::vec4 vec;</span><br><span class="line">    <span class="keyword">auto</span> test = matrix * vec;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span>(!<span class="built_in">glfwWindowShouldClose</span>(window)) &#123;</span><br><span class="line">        <span class="built_in">glfwPollEvents</span>();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">glfwDestroyWindow</span>(window);</span><br><span class="line"></span><br><span class="line">    <span class="built_in">glfwTerminate</span>();</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>出现白色窗口就说明成功了。</p><p><img src="https://img-blog.csdnimg.cn/7e0f179f7a5441f593a6e998c5279303.png" alt="在这里插入图片描述"></p><h1 id="结尾"><a href="#结尾" class="headerlink" title="结尾"></a>结尾</h1><p>如果你遇到什么问题可以在评论区告诉我哦。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\js\APlayer.min.js&quot; class=&quot;aplayer-se</summary>
+      
+    
+    
+    
+    <category term="Vulkan" scheme="https://www.yangshuohao.com/categories/Vulkan/"/>
+    
+    
+    <category term="开发环境搭建" scheme="https://www.yangshuohao.com/tags/%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>超详细超全CMake教程：第二步添加库</title>
@@ -495,34 +519,6 @@
     
     
     <category term="hexo" scheme="https://www.yangshuohao.com/tags/hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>UE5打包安卓环境搭建</title>
-    <link href="https://www.yangshuohao.com/20210730/UE5%E6%89%93%E5%8C%85%E5%AE%89%E5%8D%93%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/"/>
-    <id>https://www.yangshuohao.com/20210730/UE5%E6%89%93%E5%8C%85%E5%AE%89%E5%8D%93%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</id>
-    <published>2021-07-29T23:30:46.000Z</published>
-    <updated>2021-08-01T09:55:26.031Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h1 id="下载UE5"><a href="#下载UE5" class="headerlink" title="下载UE5"></a>下载UE5</h1><p>首先自己下载UE5，然后记得把Android选项勾上下载，默认好像是勾上了的，如果没勾上自己下载一下。   </p><p><img src="https://img-blog.csdnimg.cn/20210730212849100.png"><br><img src="https://img-blog.csdnimg.cn/20210730212858482.png"></p><h1 id="下载jdk-8u77-windows-x64-exe"><a href="#下载jdk-8u77-windows-x64-exe" class="headerlink" title="下载jdk-8u77-windows-x64.exe"></a>下载jdk-8u77-windows-x64.exe</h1><p><a href="https://www.oracle.com/java/technologies/javase/javase8-archive-downloads.html">官网下载地址</a></p><p><img src="https://img-blog.csdnimg.cn/20210730213151369.png"><br>当然官网下载速度可能有点慢，如果实在是下载不了的话，就从后面我提供的链接里面下载。<br>下载完以后直接安装，安装路径就保持默认，安装比较简单，直接一直下一步就可以了，这里就不废话了。安装完以后找到安装路径，默认为C:\Program Files\Java，如果你更改了路径，那你就找到你自己安装的路径就可以了。然后复制路径C:\Program Files\Java\jdk1.8.0_77，在电脑左下角搜索environment，选择编辑系统环境变量。如下图所示：   </p><p><img src="https://img-blog.csdnimg.cn/20210730213735212.png"><br>点击环境变量 </p><p><img src="https://img-blog.csdnimg.cn/20210730213842439.png"><br>在用户变量里面点击新建        </p><p><img src="https://img-blog.csdnimg.cn/20210730213902952.png"><br>然后如下图设置，设置完以后点击确定。      </p><p><img src="https://img-blog.csdnimg.cn/20210730213951521.png"><br>点击下方系统环境变量的新建         </p><p><img src="https://img-blog.csdnimg.cn/2021073021405544.png"><br>然后如下图设置，设置完以后点击确定。     </p><p><img src="https://img-blog.csdnimg.cn/20210730213951521.png"><br>这样环境变量就设置好了。</p><h1 id="下载AndroidStudio"><a href="#下载AndroidStudio" class="headerlink" title="下载AndroidStudio"></a>下载AndroidStudio</h1><p><a href="https://developer.android.com/studio/archive">官网下载地址</a></p><p><img src="https://img-blog.csdnimg.cn/2021073021441631.png"><br>当然官网下载速度可能有点慢，如果实在是下载不了的话，就从后面我提供的链接里面下载。<br>下载完以后直接安装，取消Android Virtual Device勾选，没必要下载，当然你也可以选择下载。  </p><p><img src="https://img-blog.csdnimg.cn/20210730214659346.jpg"><br>AndroidStudio安装位置自己选择，比如我安装在D:\AndroidStudio，安装完以后直接启动。<br>选择SDK Manager。         </p><p><img src="https://img-blog.csdnimg.cn/20210730220913881.png"><br>选择Android API 30（如果31勾选了的话取消了它）   </p><p><img src="https://img-blog.csdnimg.cn/20210730220947851.png"><br>然后点击SDK Tools，按如下图进行选择，如果31.0.0勾选了的话取消它，然后点击Apply。 </p><p><img src="https://img-blog.csdnimg.cn/20210730221522261.png"><br>安装位置的话我放在D:\sdk，你自己看着放，等待安装完。             </p><h1 id="UE5创建测试项目"><a href="#UE5创建测试项目" class="headerlink" title="UE5创建测试项目"></a>UE5创建测试项目</h1><p>打开UE5创建一个蓝图第三人称模板项目，如下图设置。   </p><p><img src="https://img-blog.csdnimg.cn/20210730222309410.png"><br>打开ProjectSettings       </p><p><img src="https://img-blog.csdnimg.cn/20210730222355712.png"><br>然后如下图设置     </p><p><img src="https://img-blog.csdnimg.cn/20210730222537679.png"><br>现在进入jdk安装目录复制C:\Program Files\Java\jdk1.8.0_77\bin 路径，然后打开cmd命令行窗口，记得以管理员身份运行。 </p><p><img src="https://img-blog.csdnimg.cn/2021073022285233.png"><br>通过cd 进入我们刚刚复制的路径     </p><p><img src="https://img-blog.csdnimg.cn/2021073022302776.png"><br>然后复制如下命令进去回车           </p><pre><code class="(C++)">    keytool -genkey -v -keystore ExampleKey.keystore -alias MyKey -keyalg RSA -keysize 2048 -validity 10000  </code></pre><p>口令这个得记住后面有用，比如我这里设置为<strong>666666</strong>.其他的东西随便写，还有记得回复写<strong>是</strong>不能是<strong>yes</strong>，然后回车就可以了。  </p><p><img src="https://img-blog.csdnimg.cn/20210730223211947.png"><br>这个时候在咱们的C:\Program Files\Java\jdk1.8.0_77\bin路径下生成了一个文件。  </p><p><img src="https://img-blog.csdnimg.cn/20210730223508117.png"><br>把这玩意复制到刚刚创建的UE5项目的Build/Android路径下。       </p><p><img src="https://img-blog.csdnimg.cn/2021073022432889.png"><br>进入UE5编辑器的ProjectSettings里面，选择Android。    </p><p><img src="https://img-blog.csdnimg.cn/20210730224537107.png"><br><img src="https://img-blog.csdnimg.cn/20210730224828429.png"><br>到这里就全部设置完了，直接去导出就可以了。      </p><p><img src="https://img-blog.csdnimg.cn/20210730224907127.png"><br>等待打包完，OK环境搭建结束了。</p><h1 id="可能出现的问题"><a href="#可能出现的问题" class="headerlink" title="可能出现的问题"></a>可能出现的问题</h1><ol><li>Android Studio报错unable to access android sdk add-on<br><img src="https://img-blog.csdnimg.cn/2021073023401258.png"><blockquote><p>解决办法：        </p><ul><li>在Android Studio的安装目录下，找到\bin\idea.properties   </li><li>在尾行添加disable.android.first.run=true，表示初次启动不检测SDK</li></ul></blockquote></li><li>UE5打包失败    </li></ol><p><img src="https://img-blog.csdnimg.cn/2021073022520373.png">   </p><blockquote><p>解决办法：<br>安装dotnet-sdk-3.1.409-win-x64就可以了，<a href="https://dotnet.microsoft.com/download/dotnet/thank-you/sdk-3.1.409-windows-x64-installer">下载地址</a>。<br>下载安装完以后重新打包就可以了。  </p></blockquote><h1 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h1><ol><li><a href="https://pan.baidu.com/s/1XvOiuAs0W0OdkX06s3AlNg">jdk-8u77-windows-x64</a> 提取码: grgu   </li><li><a href="https://pan.baidu.com/s/1cyyZUGysB5MwfR1LLnfXkw">android-studio-ide-191.6010548-windows</a> 提取码: q7aq    </li><li><a href="https://pan.baidu.com/s/1Vto2VcM9AI7TSyaZcSPiyA">dotnet-sdk-3.1.409-win-x64</a>  提取码: bb5z   </li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\js\APlayer.min.js&quot; class=&quot;aplayer-se</summary>
-      
-    
-    
-    
-    <category term="UE5" scheme="https://www.yangshuohao.com/categories/UE5/"/>
-    
-    
-    <category term="UE5" scheme="https://www.yangshuohao.com/tags/UE5/"/>
-    
-    <category term="打包" scheme="https://www.yangshuohao.com/tags/%E6%89%93%E5%8C%85/"/>
-    
-    <category term="安卓" scheme="https://www.yangshuohao.com/tags/%E5%AE%89%E5%8D%93/"/>
     
   </entry>
   
