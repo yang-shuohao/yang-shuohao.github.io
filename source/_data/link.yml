@@ -42,6 +42,10 @@
 - class_name: 网站
   class_desc: 值得推荐的网站
   link_list:
+    - name: yshinstall
+      link: https://yshinstall.com
+      avatar: https://img-blog.csdnimg.cn/6d46db29ad9f43db8a4c09aa15c23ac5.jpg
+      descr: 破解软件下载
     - name: Youtube
       link: https://www.youtube.com/
       avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
