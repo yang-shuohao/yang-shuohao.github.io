@@ -1,8 +1,9 @@
 ---
 title: 在Github上备份Hexo博客
-date: 2021-07-27 23:13:25
 tags: hexo
 categories: 博客
+abbrlink: 5d759798
+date: 2021-07-27 23:13:25
 ---
 
 # 原理

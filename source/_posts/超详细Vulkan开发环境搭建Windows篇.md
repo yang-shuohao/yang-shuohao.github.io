@@ -1,9 +1,10 @@
 ---
 title: 超详细Vulkan开发环境搭建Windows篇
-date: 2021-09-11 09:55:27
 tags: 开发环境搭建
 categories: Vulkan
-cover: https://img-blog.csdnimg.cn/7fe287dcb72c49cfbf852209d12d17b2.gif#pic_center
+cover: 'https://img-blog.csdnimg.cn/7fe287dcb72c49cfbf852209d12d17b2.gif#pic_center'
+abbrlink: 61b90d80
+date: 2021-09-11 09:55:27
 ---
 
 # 1.Vulkan SDK

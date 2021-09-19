@@ -49,8 +49,8 @@ copy:
 #  icon: /img/social.jpg || 周游世界
 social:
 #  fab fa-github: https://github.com/yang-shuohao || Github
-  iconfont icon-QQ: /img/contact/qq.png
-  iconfont icon-weixin: /img/contact/wechat.jpg
+  iconfont icon-QQ: https://img-blog.csdnimg.cn/78d24c20f44042569eef948f57261b92.png
+  iconfont icon-weixin: https://img-blog.csdnimg.cn/db32b12adbed4ba1aa2a13c5f6b84286.jpg
   iconfont icon-csdn-copy: https://yangshuohao.blog.csdn.net/
   iconfont icon-github: https://github.com/yang-shuohao
   iconfont icon-bilibilix: https://space.bilibili.com/405076711
@@ -666,7 +666,7 @@ aside:
     content: 嗨，其实成功很简单的，那就是做自己喜欢的事情并坚持下去，就一定会成功的啦！
   card_recent_post:
     enable: true
-    limit: 3 # if set 0 will show all
+    limit: 5 # if set 0 will show all
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
   card_categories:
@@ -709,7 +709,7 @@ runtimeshow:
 newest_comments:
   enable: true
   sort_order: # Don't modify the setting unless you know how it works
-  limit: 3
+  limit: 5
   storage: 10 # unit: mins, save data to localStorage
   avatar: true
 

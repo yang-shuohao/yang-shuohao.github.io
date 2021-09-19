@@ -1,12 +1,13 @@
 ---
 title: VS插件VA小番茄下载破解安装
-date: 2021-08-01 14:35:19
-tags: 
-- VisualStudio插件
-- VisualAssist
-- 小番茄
+tags:
+  - VisualStudio插件
+  - VisualAssist
+  - 小番茄
 categories: 软件
-cover: https://img-blog.csdnimg.cn/20210801145008117.jpg
+cover: 'https://img-blog.csdnimg.cn/20210801145008117.jpg'
+abbrlink: a050db0a
+date: 2021-08-01 14:35:19
 ---
 
 # VA小番茄下载地址

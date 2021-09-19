@@ -1,9 +1,10 @@
 ---
 title: 超详细超全CMake教程：开发环境准备
-date: 2021-09-01 22:51:02
 tags: CMake
 categories: CMake
-cover: https://img-blog.csdnimg.cn/616d3efc09fb49c6acc1b45fbbe4e19b.jpg
+cover: 'https://img-blog.csdnimg.cn/616d3efc09fb49c6acc1b45fbbe4e19b.jpg'
+abbrlink: 6bf9eb63
+date: 2021-09-01 22:51:02
 ---
 
 # 下载安装CMake

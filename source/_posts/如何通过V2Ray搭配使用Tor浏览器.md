@@ -1,11 +1,12 @@
 ---
 title: 如何通过V2Ray搭配使用Tor浏览器
-date: 2021-08-04 22:18:31
 tags:
-- Tor浏览器
-- 深网
+  - Tor浏览器
+  - 深网
 categories: 黑客技术
-cover: https://img-blog.csdnimg.cn/20210804222124450.png
+cover: 'https://img-blog.csdnimg.cn/20210804222124450.png'
+abbrlink: 5a898c2c
+date: 2021-08-04 22:18:31
 ---
 
 # Tor浏览器的下载与安装

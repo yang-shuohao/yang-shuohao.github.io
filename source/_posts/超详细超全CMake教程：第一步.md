@@ -1,9 +1,10 @@
 ---
 title: 超详细超全CMake教程：第一步：一个基本的起点
-date: 2021-09-01 22:59:55
 tags: CMake
 categories: CMake
-cover: https://img-blog.csdnimg.cn/73d242c110714789b7277f02cb9fdd9c.png
+cover: 'https://img-blog.csdnimg.cn/73d242c110714789b7277f02cb9fdd9c.png'
+abbrlink: f804f4fc
+date: 2021-09-01 22:59:55
 ---
 
 # 第一步：一个基本的起点

@@ -1,9 +1,10 @@
 ---
 title: 超详细超全CMake教程：第二步添加库
-date: 2021-09-03 00:30:45
 tags: CMake
 categories: CMake
-cover: https://img-blog.csdnimg.cn/e8632c1478e146daa98a0fbb8367518b.png
+cover: 'https://img-blog.csdnimg.cn/e8632c1478e146daa98a0fbb8367518b.png'
+abbrlink: 1a358483
+date: 2021-09-03 00:30:45
 ---
 
 

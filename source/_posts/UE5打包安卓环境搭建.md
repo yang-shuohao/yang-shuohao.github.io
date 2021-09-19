@@ -1,12 +1,13 @@
 ---
 title: UE5打包安卓环境搭建
-date: 2021-07-30 07:30:46
 tags:
-- UE5
-- 打包
-- 安卓
+  - UE5
+  - 打包
+  - 安卓
 categories: UE5
-cover: https://img-blog.csdnimg.cn/20210730074129258.jpg
+cover: 'https://img-blog.csdnimg.cn/20210730074129258.jpg'
+abbrlink: eae48465
+date: 2021-07-30 07:30:46
 ---
 
 # 下载UE5

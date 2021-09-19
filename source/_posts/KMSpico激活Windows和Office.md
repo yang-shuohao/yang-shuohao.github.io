@@ -1,12 +1,14 @@
 ---
 title: KMSpico激活Windows和Office
-date: 2021-08-07 20:43:45
-tags: 
-- KMSpico
-- Windows
-- office
+tags:
+  - KMSpico
+  - Windows
+  - office
 categories: 软件
-cover: http://getwindowsactivator.info/wp-content/uploads/2019/06/Download-KMSpico-Activator-windows-10-8.1-7-and-Office.png
+cover: >-
+  http://getwindowsactivator.info/wp-content/uploads/2019/06/Download-KMSpico-Activator-windows-10-8.1-7-and-Office.png
+abbrlink: 7ecc7ae0
+date: 2021-08-07 20:43:45
 ---
 
 # KMSpico下载安装

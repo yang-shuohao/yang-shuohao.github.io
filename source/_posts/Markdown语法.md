@@ -1,9 +1,10 @@
 ---
 title: Markdown语法
-date: 2021-08-07 22:12:12
 tags: Markdown
 categories: Markdown
-cover: https://img1.humandetail.com/gI8QZktBltrm3i2b.jpg
+cover: 'https://img1.humandetail.com/gI8QZktBltrm3i2b.jpg'
+abbrlink: 3c50d03d
+date: 2021-08-07 22:12:12
 ---
 
 # 基本语法
