@@ -5,14 +5,11 @@
       link: https://yangshuohao.blog.csdn.net/
       avatar: https://pbs.twimg.com/profile_images/544700031962316800/QFbzxOGM.jpeg
       descr: 个人博客
-    - name: 知乎
-      link: https://www.zhihu.com/people/hao-mei-you-xi
-      avatar: https://play-lh.googleusercontent.com/9VnaS24lBlvuUkKiIg4rNdFb6d5UcYpOI17vun8l7VbHkry-jbpnJmsjfIVahGkEklE
-      descr: 知乎
-    - name: 哔哩哔哩
-      link: https://space.bilibili.com/405076711
-      avatar: https://public-cdn.mokahr.com/7aec1a00-9c79-4946-969a-75fa45b7f7c6.png
-      descr: 哔哩哔哩
+    - name: 黑客游戏
+      link: https://hackgames.org/
+      avatar: https://hackgames.org/wp-content/uploads/2021/09/Logo-2.png
+      descr: 黑客游戏
+
 
 
 - class_name: 游戏引擎
