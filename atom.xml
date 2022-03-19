@@ -6,7 +6,7 @@
   <link href="https://www.yangshuohao.com/atom.xml" rel="self"/>
   
   <link href="https://www.yangshuohao.com/"/>
-  <updated>2022-03-13T04:59:40.581Z</updated>
+  <updated>2021-09-19T07:55:22.002Z</updated>
   <id>https://www.yangshuohao.com/</id>
   
   <author>
@@ -15,30 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>加入知识星球带你搞网站呀</title>
-    <link href="https://www.yangshuohao.com/posts/ec32aa3c.html"/>
-    <id>https://www.yangshuohao.com/posts/ec32aa3c.html</id>
-    <published>2022-03-13T00:30:33.000Z</published>
-    <updated>2022-03-13T04:59:40.581Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h1 id="知识星球"><a href="#知识星球" class="headerlink" title="知识星球"></a>知识星球</h1><p>带你搭建好看的博客网站，咱也是有博客网站的人了，嘿嘿嘿，这面子一下子就上去了哈。<br>欢迎大家加入知识星球一起探讨学习网站搭建，有什么问题都可以在知识星球里面问哦！<br><a href="https://t.zsxq.com/MzvbQZN">hexo个人博客网站</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\js\APlayer.min.js&quot; class=&quot;aplayer-se</summary>
-      
-    
-    
-    
-    <category term="博客" scheme="https://www.yangshuohao.com/categories/%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-    <category term="知识星球" scheme="https://www.yangshuohao.com/tags/%E7%9F%A5%E8%AF%86%E6%98%9F%E7%90%83/"/>
-    
-  </entry>
   
   <entry>
     <title>超详细Vulkan开发环境搭建Windows篇</title>
@@ -506,6 +482,30 @@
     <updated>2021-09-19T07:55:21.996Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><blockquote><p>需强制刷新浏览器缓存，<strong>Shift+F5</strong>刷新，才能显示修改后的新界面。</p></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;link rel=&quot;stylesheet&quot; class=&quot;aplayer-secondary-style-marker&quot; href=&quot;\css\APlayer.min.css&quot;&gt;&lt;script src=&quot;\js\APlayer.min.js&quot; class=&quot;aplayer-se</summary>
+      
+    
+    
+    
+    <category term="博客" scheme="https://www.yangshuohao.com/categories/%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+    <category term="hexo" scheme="https://www.yangshuohao.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>重新生成网站导致域名失效</title>
+    <link href="https://www.yangshuohao.com/posts/70aef98f.html"/>
+    <id>https://www.yangshuohao.com/posts/70aef98f.html</id>
+    <published>2021-07-31T02:14:15.000Z</published>
+    <updated>2021-09-19T07:55:22.004Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\css\APlayer.min.css"><script src="\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><script class="meting-secondary-script-marker" src="\js\Meting.min.js"></script><h1 id="新建CNAME文件"><a href="#新建CNAME文件" class="headerlink" title="新建CNAME文件"></a>新建CNAME文件</h1><p>在hexo跟目录下的source文件夹内新建一个CNAME文件（新建一个文本文件，去掉后缀名就可以保存为所有文件），在CNAME文件里面填写自己的域名就可以了。</p><p><img src="https://img-blog.csdnimg.cn/20210731101923729.png"><br><img src="https://img-blog.csdnimg.cn/20210731102010910.png"><br>然后hexo g -d重新生成部署（这里一定确定生成成功，可能因为网络原因导致失败）。</p>]]></content>
     
     
       
