@@ -107,7 +107,7 @@ theme: butterfly
 deploy:
   - type: git
     repo:
-      github: https://github.com/yang-shuohao/yang-shuohao.github.io.git,main
+      github: https://github.com/akidaa-me/akd.github.io.git,main
       
   - type: baidu_url_submitter  #百度
 
