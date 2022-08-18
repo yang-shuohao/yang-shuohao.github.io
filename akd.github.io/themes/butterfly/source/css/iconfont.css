@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 2710217 */
+  src: url('//at.alicdn.com/t/font_2710217_ldpqe791n9q.woff2?t=1627570740897') format('woff2'),
+       url('//at.alicdn.com/t/font_2710217_ldpqe791n9q.woff?t=1627570740897') format('woff'),
+       url('//at.alicdn.com/t/font_2710217_ldpqe791n9q.ttf?t=1627570740897') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-QQ:before {
+  content: "\e601";
+  /* 修改颜色 */
+  color: #05fcc3;
+  /* 修改大小 */
+  font-size: 28px;
+}
+
+.icon-bilibilix:before {
+  content: "\e602";
+    /* 修改颜色 */
+  color: #05fcc3;
+  /* 修改大小 */
+  font-size: 28px;
+}
+
+.icon-github:before {
+  content: "\e603";
+    /* 修改颜色 */
+  color: #05fcc3;
+  /* 修改大小 */
+  font-size: 28px;
+}
+
+.icon-zhihu:before {
+  content: "\e629";
+    /* 修改颜色 */
+  color: #05fcc3;
+  /* 修改大小 */
+  font-size: 28px;
+}
+
+.icon-weixin:before {
+  content: "\e68a";
+    /* 修改颜色 */
+  color: #05fcc3;
+  /* 修改大小 */
+  font-size: 28px;
+}
+
+.icon-csdn-copy:before {
+  content: "\e600";
+    /* 修改颜色 */
+  color: #05fcc3;
+  /* 修改大小 */
+  font-size: 28px;
+}
+

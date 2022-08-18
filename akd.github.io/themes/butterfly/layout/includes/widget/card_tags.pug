@@ -1,0 +1,12 @@
+if site.tags.length
+  .card-widget.card-tags
+    .card-content
+      .item-headline
+        i.fa.fa-tags(aria-hidden="true")
+        span= _p('aside.card_tags')
+        script(type="text/javascript" charset="utf-8" src="/js/tagcloud.js")
+        script(type="text/javascript" charset="utf-8" src="/js/tagcanvas.js")
+        #myCanvasContainer.widget.tagcloud(align='center')
+          canvas#resCanvas(width='200',height='200',style='width=100%')
+            != tagcloud()
+         
